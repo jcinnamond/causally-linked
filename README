@@ -1,0 +1,27 @@
+CausallyLinked
+==============
+
+This plugin is a quick demonstration of the Causally Linked pattern
+that I talked about at:
+
+http://www.cinnamond.me.uk/articles/The-Causal-Links-Pattern
+
+The code is hastily written and a bit nasty, but it is enough to
+demonstrate the pattern. As I rewrite it I'll keep this repo up to
+date.
+
+After installing the plugin, you need to copy the two migrations into
+your migrations directory and run them. This creates two tables -- one
+to store the available relationships and another to store the links
+between objects.
+
+
+Example
+=======
+
+See:
+
+http://www.cinnamond.me.uk/articles/A-First-Look-at-Causal-Links-in-Action
+
+
+Copyright (c) 2008 John Cinnamond, released under the MIT license
