@@ -21,4 +21,8 @@ class CausalLink < ActiveRecord::Base
       }
     }
   }
+
+  def to_s
+    "#{from}'s #{relationship.from_inflection} is #{to}"
+  end
 end
